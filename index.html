@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Website Title (Shows on the tab bar)-->
+    <title>Valentine's Card</title>
+
+    <!-- Link to external CSS file for styling -->
+    <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+    <!-- Container vs Wrapper -->
+     <!-- Container - centers the entire Valentine's card on the screen and provides overall structure.
+          Wrapper - holds the envelope and letter together, allowing animations like opening and popping up. -->
+    <div class="container">
+        <div class="wrapper">
+            
+            <!-- Envelope flaps (lid one for closed; lid two for open) -->
+            <div class="lid one"></div>
+            <div class="lid two"></div>
+            
+            <!-- Envelope body -->
+            <div class="envelope"></div>
+            
+            <!-- Letter inside the envelope -->
+            <div class="letter">
+                <!-- Text inside the letter -->
+                <div class="text">
+                    Happy <br> Valentine's <br> Day
+                </div>
+                <!-- Small heart decoration inside the letter -->
+                <div class="heart"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- BONUS: Heart Shaped Mouse Cursor (Uncomment to enable) -->
+    <!-- <script src="script.js"></script> -->
+
+</body>
+</html>
